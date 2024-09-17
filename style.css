@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+  font-size: 30px;
+  /* font-family:Arial, Helvetica, sans-serif; */
+  font-family:Helvetica;
+  background-color: #f8f8f8;
+}
+body {
+  padding: 30px;
+  /* background-color: rgba(255, 0, 0, 0.322); */
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav .left{
+  font-weight: 800;
+}
+nav .center {
+  display: flex;
+  list-style: none;
+  
+
+}
+.center > li {
+  margin: 0 10px;
+  font-weight: 600;
+}
+nav > .right {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 0 20px;
+}
+.main {
+  display: flex;
+  padding: 20px;
+  height: 650px;
+}
+.main > .left {
+  color: white;
+  background-color: #130075;
+  width: 25%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+.main > .left>img {
+  display: block;
+  margin: auto;
+  height: 150px;
+  border-radius: 50%;
+}
+.main > .left h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.main > .left h3 {
+  font-size: 20px;
+  text-align: center;
+}
+.clg{
+  margin:20px 0;
+}
+.main > .left p {
+  font-size: 15px;
+  text-align: center;
+}
+.main > .left .scale {
+  display: flex;
+}
+.contact{
+  margin:20px 0 ;
+  /* display: flex; */
+  font-size: 10px;
+}
+.main > .left button{
+  height: 40px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  color: #130075;
+}
+.main>.left>.portfolio{
+  margin: 10px 0;
+}
+
+.portfolioin{
+  
+  color: white;
+  text-underline-offset: 6px;
+}
+.socialmedia{
+  display: flex;
+  justify-content: space-evenly;
+}
+.socialmedia>img,.socialmedia i{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
+.fa-brands{
+  color: #130075;
+  /* align-items: center; */
+   padding-left: 12px; 
+  padding-top: 10px; 
+}
+.main > .rightside {
+  padding: 0 20px;
+  /* background-color: blue; */
+  width: 75%;
+  height: 100%;
+}
+.rightside h2{
+  margin-bottom:  10px ;
+  font-size: 25px;
+}
+.rightside>p{
+  margin: 10px 0;
+  font-size: 20px;
+  /* background-color: red; */
+  line-height: 20px;
+}
+
+.technology{
+  font-size: 20px;
+  /* display: block; */
+  width: 500px;
+  /* background-color: blue; */
+}
+
+.technology>span{
+  font-size: 20px;
+  display: inline-block;
+  /* background-color: red; */
+  margin: 2px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+h5{
+  font-size: 18px;
+  padding-left: 20px;
+}
+.des{
+font-size:12px; 
+padding-left: 25px;
+}
